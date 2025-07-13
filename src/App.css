@@ -1,0 +1,16 @@
+.board-container {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.cell {
+  height: 100px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #f8f9fa;
+  transition: background-color 0.2s;
+}
+
+.cell:hover {
+  background-color: #e9ecef;
+}
