@@ -1,22 +1,18 @@
-function Board({ board, handleBoxClick }) {
+function Board({ board, handleBoxClick, winningCombo }) {
   return (
-    <div className="container board-container">
-      {[0, 1, 2].map((row) => (
-        <div className="row" key={row}>
-          {[0, 1, 2].map((col) => {
-            const index = row * 3 + col;
-            return (
-              <div
-                key={index}
-                className="col-4 border cell d-flex justify-content-center align-items-center fs-2"
-                onClick={() => handleBoxClick(index)}
-              >
-                {board[index]}
-              </div>
-            );
-          })}
-        </div>
-      ))}
+    <div className="board-wrapper">
+      {board.map((value, index) => {
+        const isWinningCell = winningCombo?.includes(index);
+        return (
+          <div
+            key={index}
+            className={`cell ${isWinningCell ? 'winning-cell' : ''}`}
+            onClick={() => handleBoxClick(index)}
+          >
+            {value}
+          </div>
+        );
+      })}
     </div>
   );
 }
