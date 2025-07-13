@@ -1,12 +1,35 @@
-# React + Vite
+# 🎮 Tic Tac Toe Game (React + Bootstrap)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and feature-rich implementation of the classic Tic Tac Toe game using **React**, **Vite**, and **Bootstrap** — built for fun and practice as part of the [Hack Club Summer of Making](https://hackclub.com/summer-of-making/) program.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- ✅ 2-Player mode (X vs O)
+- ✅ Score tracking
+- ✅ Winning combination highlight
+- ✅ Match draw (Tie) detection
+- ✅ 🎨 Light/Dark theme toggle
+- ✅ 🎵 Sound effects for move & win (optional)
+- ✅ Smooth, mobile-friendly UI using Bootstrap
+- ✅ Component-based clean code structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+
+##  Tech Stack
+
+| Tool        | Purpose                     |
+|-------------|-----------------------------|
+| React       | UI & component logic        |
+| Vite        | Fast development build tool |
+| Bootstrap   | Responsive layout & styling |
+| CSS         | Custom transitions & styles |
+
+---
+
+
+## License
+MIT License. Feel free to use, fork, or contribute!
+
